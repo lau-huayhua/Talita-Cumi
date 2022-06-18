@@ -1,0 +1,68 @@
+/*Fuente*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffe6e6;
+  text-align: center;
+  color: #162835;
+}
+header {
+  background-color: #9ad0ec;
+}
+.navbar {
+  color: #162835;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+}
+.navbar:hover {
+  color: #e3bec6;
+}
+#logo {
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+/*Banner*/
+.contenedor-banner {
+  height: 75vh;
+}
+
+/*Card*/
+.c-card {
+  background-color: #efdad7;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.c-card:hover {
+  transform: translateY(-3px);
+  -webkit-box-shadow: 12px -13px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 12px -13px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 12px -13px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.btn {
+  background-color: #1572a1;
+}
+.btn:hover {
+  background-color: #e3bec6;
+  color: black;
+}
+/*Footer*/
+.footer {
+  background-color: #1572a1;
+  color: #e3bec6;
+  font-size: 1rem;
+}
+.icon {
+  color: #e3bec6;
+  text-decoration: none;
+}
+.icon:hover {
+  color: #9ad0ec;
+}
