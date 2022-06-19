@@ -12,23 +12,28 @@ body {
   text-align: center;
   color: #162835;
 }
+
 header {
   background-color: #9ad0ec;
 }
+
 .navbar {
   color: #162835;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
 }
+
 .navbar:hover {
   color: #e3bec6;
 }
+
 #logo {
   font-family: "Great Vibes", cursive;
   font-weight: bold;
   font-size: 2rem;
 }
+
 /*Banner*/
 .contenedor-banner {
   height: 75vh;
@@ -40,29 +45,70 @@ header {
   cursor: pointer;
   transition: all 0.1s ease;
 }
+
 .c-card:hover {
   transform: translateY(-3px);
   -webkit-box-shadow: 12px -13px 5px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 12px -13px 5px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 12px -13px 5px 0px rgba(0, 0, 0, 0.15);
 }
+
 .btn {
   background-color: #1572a1;
 }
+
 .btn:hover {
   background-color: #e3bec6;
   color: black;
 }
+
 /*Footer*/
 .footer {
   background-color: #1572a1;
   color: #e3bec6;
   font-size: 1rem;
 }
+
 .icon {
   color: #e3bec6;
   text-decoration: none;
 }
+
 .icon:hover {
   color: #9ad0ec;
+}
+
+/*Contacto*/
+.contenedor-form {
+  background: rgb(255, 230, 230);
+  background: linear-gradient(180deg,
+      rgba(255, 230, 230, 1) 26%,
+      rgba(227, 190, 198, 1) 61%,
+      rgba(154, 208, 236, 1) 99%,
+      rgba(154, 208, 236, 1) 100%);
+  width: 70%;
+}
+
+form {
+  width: 70%;
+  text-align: start;
+}
+
+.obligatorio {
+  color: red;
+}
+
+.text {
+  height: 150px;
+}
+
+.container {
+  background: rgb(227, 190, 198);
+  background: linear-gradient(180deg,
+      rgba(227, 190, 198, 0.9668242296918768) 10%,
+      rgba(154, 208, 236, 1) 99%);
+}
+
+.sesion {
+  height: 650px;
 }
